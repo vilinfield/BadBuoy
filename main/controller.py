@@ -51,7 +51,7 @@ def setVelocity(controllerObject, controllerIndex, motorIndex, value):
 
 def moveClaw():
     s1.setPosition(0, ((Joystick.get_axis(2) + 1) * 0.5) * servoScale)
-    s1.setPosition(0, position
+    s1.setPosition(0, position)
 
 def moveLateral():
     velocity = Joystick.get_axis(0) * 100
